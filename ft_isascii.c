@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_isascii.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:12:18 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:12:23 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:02:34 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:02:36 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

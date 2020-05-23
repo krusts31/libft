@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_malloc1dim_bonus.c                              :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:07:35 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:07:56 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:00:30 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:00:34 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

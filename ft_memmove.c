@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_memmove.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:17:32 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:17:44 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:59:34 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:59:36 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

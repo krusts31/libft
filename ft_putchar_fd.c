@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_putchar_fd.c                                    :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:16:22 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:16:31 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:58:53 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:58:54 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

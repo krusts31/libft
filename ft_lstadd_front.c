@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_lstadd_front.c                                  :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:22:03 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:37:12 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:01:46 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:01:48 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

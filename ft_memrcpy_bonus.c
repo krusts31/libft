@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_memrcpy.c                                       :+:    :+:            */
+/*   ft_memrcpy_bonus.c                                 :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:18:02 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:18:13 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:59:26 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:59:28 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

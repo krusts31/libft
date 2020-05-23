@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   bonus_ft_putchar.c                                 :+:    :+:            */
+/*   ft_putchar_bonus.c                                 :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:08:53 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:08:57 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:59:01 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:59:03 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

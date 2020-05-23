@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_lstsize.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:19:19 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:19:23 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:00:40 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:00:42 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

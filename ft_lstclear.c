@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_lstclear.c                                      :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 22:15:31 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 22:16:36 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:01:34 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:01:41 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

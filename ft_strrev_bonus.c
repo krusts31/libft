@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_split.c                                         :+:    :+:            */
+/*   ft_strrev_bonus.c                                  :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/23 15:57:32 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:57:33 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:55:18 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:55:23 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	**ft_split(char const *s, char c)
+char	*ft_strrev(char *ptr, int number)
 {
-	char	**ptr;
+	int	loop;
 
-	ptr = ft_malloc1dim(s, c);
-	if (ptr == NULL)
-		return (NULL);
-	ptr = ft_malloc2dim(s, c, ptr);
-	ptr = ft_initmem(s, c, ptr);
+	loop = number;
+	while (loop > 0)
+	{
+		ptr++;
+		loop--;
+	}
 	return (ptr);
 }

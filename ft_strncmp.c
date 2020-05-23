@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strncmp.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 22:23:47 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 22:24:33 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:55:54 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:55:56 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

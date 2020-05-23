@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_spilt_check_bonus.c                             :+:    :+:            */
+/*   ft_split_check_bonus.c                             :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.stduent@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:10:13 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:10:18 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:57:24 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:57:26 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

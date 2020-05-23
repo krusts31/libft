@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_tolower.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.stdunet@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 12:49:00 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 22:12:34 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:54:35 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:54:42 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

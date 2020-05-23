@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_isdigit.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:34:27 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:34:32 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:02:18 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:02:24 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

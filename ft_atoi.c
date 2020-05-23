@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_atoi.c                                          :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:11:34 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:11:39 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:53:07 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:10:12 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

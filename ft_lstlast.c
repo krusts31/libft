@@ -1,25 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_split.c                                         :+:    :+:            */
+/*   ft_lstlast.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/23 15:57:32 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:57:33 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:01:07 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:01:09 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	**ft_split(char const *s, char c)
+t_list	*ft_lstlast(t_list *lst)
 {
-	char	**ptr;
-
-	ptr = ft_malloc1dim(s, c);
-	if (ptr == NULL)
+	if (lst == NULL)
 		return (NULL);
-	ptr = ft_malloc2dim(s, c, ptr);
-	ptr = ft_initmem(s, c, ptr);
-	return (ptr);
+	while (lst->next != NULL)
+		lst = lst->next;
+	return (lst);
 }

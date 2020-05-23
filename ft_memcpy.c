@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_memcpy.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:18:02 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:18:13 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:59:44 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:59:47 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

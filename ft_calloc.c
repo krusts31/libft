@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_calloc.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:12:51 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:12:57 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:03:56 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:03:57 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

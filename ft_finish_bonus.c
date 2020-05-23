@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_finish_bonus.c                                  :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:13:50 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:13:55 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:03:30 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:03:32 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

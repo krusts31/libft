@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_memcmp.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:18:46 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:18:58 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:59:56 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:59:58 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

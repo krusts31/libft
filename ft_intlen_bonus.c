@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_intlen_bonus.c                                  :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.studnet@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:06:52 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:07:02 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:03:06 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:03:08 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

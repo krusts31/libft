@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_isalpha.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:12:18 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:12:23 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:02:43 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:02:46 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

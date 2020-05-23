@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_lstmap.c                                        :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2020/05/23 16:00:59 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:01:00 by alkrusts      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *))
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new;
 	t_list	*first;

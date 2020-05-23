@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strjoin.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:07:55 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/22 08:08:11 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:56:55 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:56:58 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	if (*s1 || *s2)
 	{
-		ptr = ft_strcpy(ptr, s1);
-		ptr = ft_strcpy(ptr, s2);
+		ptr = ft_cpystr(ptr, s1);
+		ptr = ft_cpystr(ptr, s2);
 		*ptr = '\0';
 		while (len)
 		{

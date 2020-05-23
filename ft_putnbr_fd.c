@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_putnbr_fd.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 23:14:59 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 23:15:08 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:58:11 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:58:13 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

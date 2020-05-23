@@ -1,25 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_split.c                                         :+:    :+:            */
+/*   ft_cpystr_bonus.c                                  :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/23 15:57:32 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:57:33 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:03:41 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:03:43 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	**ft_split(char const *s, char c)
+char	*ft_cpystr(char *dst, const char *src)
 {
-	char	**ptr;
-
-	ptr = ft_malloc1dim(s, c);
-	if (ptr == NULL)
-		return (NULL);
-	ptr = ft_malloc2dim(s, c, ptr);
-	ptr = ft_initmem(s, c, ptr);
-	return (ptr);
+	while (*src != '\0')
+	{
+		*dst = *src;
+		dst++;
+		src++;
+	}
+	return (dst);
 }

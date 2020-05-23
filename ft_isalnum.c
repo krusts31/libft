@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_isalnum.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:32:58 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:33:02 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 16:02:52 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 16:02:59 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

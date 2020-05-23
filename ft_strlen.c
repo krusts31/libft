@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strlen.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/19 22:28:03 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/22 08:07:03 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:56:03 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/05/23 15:56:05 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
