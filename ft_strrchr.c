@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:55:30 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:55:34 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/05/28 15:49:09 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strrchr(const char *str, int c)
 		count++;
 	while (count >= 0)
 	{
-		if (str[count] == c)
+		if (str[count] == (char)c)
 			return ((char *)str + count);
 		count--;
 	}
