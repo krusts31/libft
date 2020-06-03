@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/19 22:41:30 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/28 18:33:48 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 14:36:43 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	size_t	srclen;
 	size_t	j;
 
+	if (src == NULL && dst == NULL)
+		return (0);
 	j = 0;
 	srclen = ft_strlen(src);
 	if (size == 0)

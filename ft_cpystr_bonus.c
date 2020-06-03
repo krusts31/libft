@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
 char	*ft_cpystr(char *dst, const char *src)
 {
 	while (*src != '\0')

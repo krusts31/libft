@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/19 22:15:31 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/19 22:16:36 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 15:40:27 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
 		void (*del)(void *));
 void			ft_lstiter(t_list *lst, void (*f)(void *));
 void			ft_lstclear(t_list **lst, void (*del)(void*));
-int				ft_compare(const char c, const char *z);
+size_t			ft_compare(const char c, const char *z);
 void			ft_lstadd_back(t_list **lst, t_list *new);
 void			ft_lstdelone(t_list *lst, void (*del)(void*));
 int				ft_lstsize(t_list *lst);

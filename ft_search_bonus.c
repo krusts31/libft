@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:57:41 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:57:43 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/02 14:02:50 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,5 @@ char	*ft_search(const char *src, const char *set1, int x)
 		hit = 0;
 		revsrc++;
 	}
-	return (0);
+	return (NULL);
 }

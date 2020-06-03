@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
 int	ft_isalpha(int argument)
 {
 	if ((argument >= 'A' && argument <= 'Z')

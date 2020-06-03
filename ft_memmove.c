@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:59:34 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:59:36 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/05/29 13:01:38 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,12 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	const char	*gala;
 
 	x = n - 1;
+	desa = dest;
+	gala = src;
 	if (dest < src)
 		ft_memcpy(dest, src, n);
 	else if (dest > src)
 	{
-		desa = dest;
-		gala = src;
 		while (x > 0)
 		{
 			desa++;
@@ -33,7 +33,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 		ft_memrcpy(desa, gala, n);
 	}
-	else if (dest == 0 && src == 0)
-		return (0);
+	else if (dest == NULL || src == NULL)
+		return (NULL);
 	return ((void *)dest);
 }

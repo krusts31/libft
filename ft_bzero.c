@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:04:05 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 16:04:08 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 14:37:21 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*ptr;
 
-	ptr = (unsigned char*)s;
+	ptr = (unsigned char *)s;
 	while (n > 0)
 	{
 		*ptr = '\0';

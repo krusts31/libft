@@ -6,11 +6,9 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:53:07 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 16:10:12 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 14:37:00 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

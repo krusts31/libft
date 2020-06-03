@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:55:04 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/28 17:46:50 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/02 14:21:30 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		holdsrc++;
 		hit = 0;
 	}
-	return (NULL);
+	return (ft_strdup(holdsrc));
 }

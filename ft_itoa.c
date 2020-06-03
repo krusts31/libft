@@ -6,13 +6,13 @@
 /*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/20 11:35:12 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:35:17 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 15:41:18 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_itoa_edgecase(void)
+static char	*ft_itoa_edgecase(void)
 {
 	char	*p;
 
@@ -34,7 +34,7 @@ char	*ft_itoa_edgecase(void)
 	return (p);
 }
 
-char	*ft_itoa_extension(char *ps, int nr, int y, int strlen)
+static char	*ft_itoa_extension(char *ps, int nr, int y, int strlen)
 {
 	if (nr == 0)
 	{
@@ -45,7 +45,7 @@ char	*ft_itoa_extension(char *ps, int nr, int y, int strlen)
 		ps[1] = '\0';
 		return (ps);
 	}
-	ps = ft_strrev(ps + 1, strlen);
+	ps = ft_strrev(ps, strlen);
 	*ps = '\0';
 	while (nr > 0)
 	{
@@ -58,7 +58,7 @@ char	*ft_itoa_extension(char *ps, int nr, int y, int strlen)
 	return (ps);
 }
 
-char	*ft_itoa(int n)
+char		*ft_itoa(int n)
 {
 	int		slen;
 	char	*ret;
@@ -71,9 +71,9 @@ char	*ft_itoa(int n)
 	}
 	x = 0;
 	slen = ft_intlen(n);
-	ret = malloc(slen + 2);
+	ret = malloc(slen + 1);
 	if (ret == 0)
-		return (0);
+		return (NULL);
 	if (n < 0)
 	{
 		n = -n;

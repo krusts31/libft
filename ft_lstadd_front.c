@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:01:46 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 16:01:48 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/05/31 15:11:57 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	if (lst == NULL || new == NULL)
+	if (new == NULL)
 		return ;
 	if (*lst != NULL)
 		new->next = *lst;

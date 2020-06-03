@@ -6,13 +6,13 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:03:30 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 16:03:32 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 15:41:51 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_skip(const char *s1, int x)
+static char	*ft_skip(const char *s1, int x)
 {
 	char	*str1;
 
@@ -25,7 +25,7 @@ char	*ft_skip(const char *s1, int x)
 	return (str1);
 }
 
-char	*ft_finish(const char *src, int lenght, int x)
+char		*ft_finish(const char *src, int lenght, int x)
 {
 	char	*dest;
 	int		size;
@@ -33,10 +33,10 @@ char	*ft_finish(const char *src, int lenght, int x)
 
 	size = (ft_strlen(src) - ((ft_strlen(src) - lenght) + x));
 	if (size <= 0)
-		return ("");
+		return (NULL);
 	dest = ft_calloc(size + 2, sizeof(char));
 	if (dest == 0)
-		return (0);
+		return (NULL);
 	src = (const char *)ft_skip(src, x);
 	y = 0;
 	while (size + 1 > 0)

@@ -6,11 +6,9 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:55:30 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/28 15:49:09 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/02 13:36:35 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strrchr(const char *str, int c)
 {

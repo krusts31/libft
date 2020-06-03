@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:03:20 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 16:03:24 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/03 14:38:30 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	**ft_initmem(char const *s, char c, char **ptr)
 {
-	int	a;
-	int	b;
-	int	x;
+	size_t	a;
+	size_t	b;
+	size_t	x;
 
 	x = 0;
 	b = 0;

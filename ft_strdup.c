@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:57:05 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/28 16:33:04 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/02 14:35:34 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 char	*ft_strdup(const char *s)
 {
 	char	*ptr;
-	int		x;
-	int		y;
+	size_t	x;
+	size_t	y;
 
 	y = 0;
 	x = ft_strlen(s);

@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-int	ft_compare(const char c, const char *z)
+size_t	ft_compare(const char c, const char *z)
 {
-	int	hit;
+	size_t	hit;
 
 	hit = 0;
 	while (*z != '\0')
