@@ -10,31 +10,33 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_atoi(const char *str)
+#include "libft.h"
+
+int	atoi(const char *nptr)
 {
-	int	res;
-	int	negative;
-	int	max;
+	long int	res;
+	int		negative;
+	long int	max;
 
 	negative = 1;
 	res = 0;
-	max = 2147483647;
-	while (*str && (*str == ' ' || *str == '\n' || *str == '\t' ||
-			*str == '\v' || *str == '\f' || *str == '\r'))
-		++str;
-	if (*str == '-')
+	max = LONG_MAX;
+	while (*nptr && (*nptr == ' ' || *nptr == '\n' || *nptr == '\t' ||
+			*nptr == '\v' || *nptr == '\f' || *nptr == '\r'))
+		nptr++;
+	if (*nptr == '-')
 		negative = -1;
-	if (*str == '-' || *str == '+')
-		++str;
-	while (*str && *str >= '0' && *str <= '9')
+	if (*nptr == '-' || *nptr == '+')
+		nptr++;
+	while (*nptr && *nptr >= '0' && *nptr <= '9')
 	{
-		res = res * 10 + (*str - 48);
+		res = res * 10 + (*nptr - 48);
 		if (max < 1 && negative < 0)
 			return (0);
 		else if (max < 1 && negative > 0)
 			return (-1);
 		max = max / 10;
-		++str;
+		nptr++;
 	}
-	return (res * negative);
+	return ((int)res * negative);
 }

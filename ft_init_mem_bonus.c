@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	**ft_initmem(char const *s, char c, char **ptr)
+char	**ft_init_mem(char const *s, char c, char **ptr)
 {
 	size_t	a;
 	size_t	b;

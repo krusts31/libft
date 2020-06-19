@@ -22,6 +22,6 @@ char	**ft_split(char const *s, char c)
 	if (ptr == NULL)
 		return (NULL);
 	ptr = ft_malloc2dim(s, c, ptr);
-	ptr = ft_initmem(s, c, ptr);
+	ptr = ft_init_mem(s, c, ptr);
 	return (ptr);
 }

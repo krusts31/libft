@@ -10,10 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int argument)
+int	ft_isalpha(int c)
 {
-	if ((argument >= 'A' && argument <= 'Z')
-			|| (argument >= 'a' && argument <= 'z'))
+	if ((c >= 'A' && c <= 'Z')
+			|| (c >= 'a' && c <= 'z'))
 		return (1);
 	else
 		return (0);
