@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:00:12 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/28 16:22:26 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/23 11:03:03 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,7 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 	{
 		d[x] = s[x];
 		if (d[x] == (unsigned char)c)
-		{
 			return ((void *)d + x + 1);
-		}
 		x++;
 	}
 	return (NULL);

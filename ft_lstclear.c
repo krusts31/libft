@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:01:34 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/31 15:19:10 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/22 21:24:33 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,5 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 		ft_lstdelone(*lst, *del);
 		*lst = now->next;
 	}
+	*lst = NULL;
 }

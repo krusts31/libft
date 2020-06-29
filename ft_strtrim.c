@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:55:04 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/02 14:21:30 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/23 13:28:56 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	int			hit;
+	size_t		hit;
 	const char	*holdsrc;
-	int			x;
+	size_t		x;
 
 	if (s1 == NULL)
 		return (NULL);
@@ -30,9 +30,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 		if (hit)
 			x = x + hit;
 		if (hit == 0)
-			return (ft_search(s1, set, x));
+			return (ft_search(s1, set, (int)x));
 		holdsrc++;
-		hit = 0;
 	}
 	return (ft_strdup(holdsrc));
 }

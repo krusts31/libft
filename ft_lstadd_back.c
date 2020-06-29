@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/19 23:22:49 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/20 11:36:29 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/23 09:43:51 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list *tmp;
 
-	if (lst == NULL)
+	if (new == NULL)
 		return ;
 	if (*lst == NULL)
 		*lst = new;

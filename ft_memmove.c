@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:59:34 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/29 13:01:38 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/23 10:55:21 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	char		*desa;
 	const char	*gala;
 
-	x = n - 1;
+	x = (int)n - 1;
 	desa = dest;
 	gala = src;
 	if (dest < src)

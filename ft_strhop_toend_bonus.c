@@ -1,34 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_malloc1dim_bonus.c                              :+:    :+:            */
+/*   ft_strrev_bonus.c                                  :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/23 16:00:30 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/23 13:54:57 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/05/23 15:55:18 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/06/23 10:38:52 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-char	**ft_malloc1dim(char const *s, char c)
+char	*ft_strhop_toend(char *ptr, int number)
 {
-	int		x;
-	int		hit;
-	char	**dim1;
+	int	loop;
 
-	hit = 0;
-	x = 0;
-	while (s[x] != '\0')
+	loop = number;
+	while (loop > 0)
 	{
-		if ((s[x] == c && s[x + 1] != c) || (s[x] != c && s[x + 1] == '\0'))
-			hit++;
-		x++;
+		ptr++;
+		loop--;
 	}
-	dim1 = ft_calloc((hit + 1), sizeof(*dim1));
-	if (dim1 == NULL)
-		return (NULL);
-	dim1[hit] = NULL;
-	return (dim1);
+	return (ptr);
 }

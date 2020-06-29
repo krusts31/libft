@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/19 22:15:31 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/03 15:40:27 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/26 14:04:49 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,14 +28,14 @@ void			ft_lstiter(t_list *lst, void (*f)(void *));
 void			ft_lstclear(t_list **lst, void (*del)(void*));
 void			ft_lstadd_back(t_list **lst, t_list *new);
 void			ft_lstdelone(t_list *lst, void (*del)(void*));
-void			ft_putlist_list(t_list *list);
+void			ft_putlst(t_list *list);
 void			ft_lstadd_front(t_list **lst, t_list *new);
 t_list			*ft_lstnew(void *content);
 t_list			*ft_lstlast(t_list *lst);
 void			ft_putstr(char *str);
 void			ft_putchar(char c);
 int				ft_intlen(int nr);
-int				atoi(const char *nptr);
+int				ft_atoi(const char *nptr);
 int				ft_isdigit(int c);
 int				ft_isalnum(int c);
 int				ft_isascii(int c);
@@ -63,7 +63,7 @@ void			*ft_memchr(const void *s, int c, size_t n);
 void			ft_putendl_fd(char const *s, int fd);
 void			*ft_memset(void *s, int c, size_t n);
 char			*ft_itoa(int nbr);
-char			*ft_finish(const char *src, int lenght, int x);
+char			*ft_finish(const char *src, size_t lenght, size_t x);
 char			**ft_split(char const *s, char c);
 char			**ft_strcpyc(const char *s, char **ptr, char c);
 char			*ft_search (const char *src, const char *set1, int x);
@@ -84,7 +84,7 @@ char			*ft_strstr(const char *str, const char *to_find);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 char			*ft_strncpy(char *dest, const char *src, size_t n);
 char			*ft_strnstr(const char *str, const char *to_find, size_t len);
-char			*ft_strrev(char *ptr, int number);
+char			*ft_strhop_toend(char *ptr, int number);
 char			*ft_strtrim(char const *s1, char const *set);
 char			*ft_strchr(const char *str, int c);
 char			*ft_cpystr(char *dst, const char *src);

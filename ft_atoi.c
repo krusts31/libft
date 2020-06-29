@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:53:07 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/03 14:37:00 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/06/23 10:43:23 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_atoi(const char *nptr)
 {
 	long int	res;
-	int		negative;
+	int			negative;
 	long int	max;
 
 	negative = 1;
