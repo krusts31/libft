@@ -6,19 +6,16 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:58:03 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/29 12:04:50 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/11/15 10:22:48 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <unistd.h>
 
-void	ft_putstr(char *str)
+void	ft_putstr(const char *str)
 {
 	if (str == NULL)
 		return ;
-	while (*str != '\0')
-	{
-		ft_putchar(*str);
-		str++;
-	}
+	write(1, str, ft_strlen(str));
 }

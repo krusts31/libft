@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:54:50 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:54:56 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:34:37 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		return (ft_strdup(""));
 	if (x - start < len)
 		len = x - start;
-	ptr = malloc(len + 1);
+	ptr = ft_calloc(len + 1, sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
 	ptr = ft_memmove(ptr, s + start, len);
-	ptr[len] = '\0';
 	return (ptr);
 }

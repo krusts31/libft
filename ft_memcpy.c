@@ -6,21 +6,21 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:59:44 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/23 10:52:11 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:10:43 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	char	*d;
-	char	*s;
+	unsigned char	*d;
+	unsigned char	*s;
 
 	if (dest == NULL && src == NULL)
 		return (NULL);
-	d = (char *)dest;
-	s = (char *)src;
+	d = (unsigned char *)dest;
+	s = (unsigned char *)src;
 	while (n > 0)
 	{
 		*d = *s;

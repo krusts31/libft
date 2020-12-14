@@ -6,11 +6,11 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:55:42 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/29 13:37:56 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:35:01 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 {

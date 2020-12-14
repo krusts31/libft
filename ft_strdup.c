@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:57:05 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/02 14:35:34 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:35:53 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strdup(const char *s)
 
 	y = 0;
 	x = ft_strlen(s);
-	ptr = malloc(x + 1);
+	ptr = ft_calloc(x + 1, sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
 	while (s[y])
@@ -28,6 +28,5 @@ char	*ft_strdup(const char *s)
 		ptr[y] = s[y];
 		y++;
 	}
-	ptr[y] = '\0';
 	return (ptr);
 }

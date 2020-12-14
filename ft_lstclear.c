@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:01:34 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/22 21:24:33 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/02 21:51:41 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
 	t_list *now;
 
-	if (del == NULL)
-		return ;
 	while (*lst)
 	{
 		now = *lst;

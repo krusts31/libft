@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:54:23 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/23 15:54:26 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/05 15:22:51 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@ int	ft_toupper(int c)
 {
 	if ((c >= 97) && (c <= 122))
 		return (c - 32);
-	else
-		return (c);
+	return (c);
 }

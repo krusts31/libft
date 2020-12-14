@@ -6,11 +6,12 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 16:00:48 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/23 10:46:27 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:49:54 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 t_list	*ft_lstnew(void *content)
 {

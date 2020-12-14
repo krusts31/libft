@@ -6,7 +6,7 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:54:11 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/05/29 12:01:42 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:35:18 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (s == NULL || f == NULL)
 		return (NULL);
-	result = malloc(ft_strlen(s) + 1);
+	result = ft_calloc(ft_strlen(s) + 1, sizeof(char));
 	if (result == NULL)
 		return (NULL);
 	i = 0;
@@ -28,6 +28,5 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 		result[i] = f(i, s[i]);
 		++i;
 	}
-	result[i] = '\0';
 	return (result);
 }

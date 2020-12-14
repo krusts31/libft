@@ -6,7 +6,7 @@
 #    By: alkrusts <alkrusts@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/05/20 11:05:23 by alkrusts      #+#    #+#                  #
-#    Updated: 2020/06/23 10:40:40 by alkrusts      ########   odam.nl          #
+#    Updated: 2020/11/14 14:54:04 by alkrusts      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,17 +18,17 @@ CFLAGS = -Wall -Werror -Wextra
 
 SRC = ft_atoi.c ft_isascii.c ft_memmove.c ft_putstr_fd.c \
       ft_strlcpy.c ft_tolower.c ft_bzero.c ft_isdigit.c \
-      ft_memrcpy_bonus.c ft_search_bonus.c ft_strlen.c ft_toupper.c \
-      ft_isprint.c ft_memset.c ft_split.c ft_strmapi.c \
-      ft_compare_bonus.c ft_itoa.c ft_malloc1dim_bonus.c ft_putchar_bonus.c \
-      ft_split_check_bonus.c ft_strncmp.c ft_finish_bonus.c \
-      ft_malloc2dim_bonus.c ft_putchar_fd.c ft_strchr.c ft_strnstr.c \
-      ft_init_mem_bonus.c ft_memccpy.c ft_putendl_fd.c \
-      ft_cpystr_bonus.c ft_strrchr.c ft_intlen_bonus.c \
-      ft_memchr.c ft_putlst_bonus.c ft_strdup.c ft_strhop_toend_bonus.c \
+      ft_memrcpy_bonus.c ft_strlen.c ft_toupper.c \
+      ft_isprint.c ft_memset.c ft_free_2dim_array_bonus.c ft_strmapi.c \
+      ft_compare_bonus.c ft_itoa.c ft_putchar_bonus.c \
+      ft_strncmp.c ft_split.c ft_strnlen_bonus.c \
+      ft_putchar_fd.c ft_strchr.c ft_strnstr.c \
+      ft_memccpy.c ft_putendl_fd.c \
+      ft_strrchr.c ft_intlen_bonus.c \
+      ft_memchr.c ft_putlst_bonus.c ft_strdup.c \
       ft_isalnum.c ft_memcmp.c ft_putnbr_fd.c ft_strjoin.c \
       ft_strtrim.c ft_isalpha.c ft_memcpy.c ft_putstr_bonus.c \
-      ft_strlcat.c ft_substr.c ft_calloc.c
+      ft_strlcat.c ft_substr.c ft_calloc.c ft_uitoa.c ft_long_len_bonus.c
 
 SRC_OBJ = $(SRC:.c=.o)
 
@@ -47,7 +47,7 @@ endif
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar rcs $@ $^
+	@ar rcs $@ $^
 
 bonus:
 	$(MAKE) WITH_BONUS=1 all

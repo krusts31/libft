@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_itoa.c                                          :+:    :+:            */
+/*   ft_uitoa.c                                         :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts.student@codam.nl>         +#+                     */
+/*   By: alkrusts <alkrust@student.codam.nl>          +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/20 11:35:12 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/07/11 17:38:34 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/11/14 13:16:45 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/12/06 21:06:17 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <limits.h>
 
-static char	*ft_itoa_extension(char *ps, int n)
+static	char	*ft_uitoa_extension(char *ps, long n)
 {
 	while (n > 0)
 	{
@@ -23,33 +24,32 @@ static char	*ft_itoa_extension(char *ps, int n)
 	return (ps);
 }
 
-static char	*ft_handel(int num)
+static	char	*ft_handel(long num)
 {
 	if (num == 0)
 		return (ft_strdup("0"));
-	if (num == -2147483648)
-		return (ft_strdup("-2147483648"));
+	if (num == LONG_MIN)
+		return (ft_strdup("-9223372036854775808"));
 	return (NULL);
 }
 
-char		*ft_itoa(int n)
+char			*ft_uitoa(long n)
 {
+	long	rest;
 	int		length_of_n;
 	char	*ret;
 	char	*result;
 
-	if (n == -2147483648 || n == 0)
+	rest = n;
+	if (n == 0 || n == LONG_MIN)
 		return (ft_handel(n));
-	length_of_n = ft_intlen(n);
+	if (n < 0)
+		rest = UINT_MAX + (n + 1);
+	length_of_n = ft_longlen(rest);
 	ret = ft_calloc(length_of_n + 1, sizeof(char));
 	if (ret == NULL)
 		return (NULL);
 	result = ret;
-	if (n < 0)
-	{
-		n = -n;
-		*ret = '-';
-	}
-	ret = ft_itoa_extension(ret + length_of_n, n);
+	ret = ft_uitoa_extension(ret + length_of_n, rest);
 	return (result);
 }

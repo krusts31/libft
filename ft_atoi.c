@@ -6,11 +6,11 @@
 /*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/05/23 15:53:07 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/06/23 10:43:23 by alkrusts      ########   odam.nl         */
+/*   Updated: 2020/07/11 17:38:43 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <limits.h>
 
 int	ft_atoi(const char *nptr)
 {

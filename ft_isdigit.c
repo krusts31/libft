@@ -10,10 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit(int argument)
+int	ft_isdigit(int c)
 {
-	if (argument >= '0' && argument <= '9')
-		return (1);
-	else
-		return (0);
+	return (c >= '0' && c <= '9');
 }

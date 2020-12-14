@@ -1,29 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_putnbr_fd.c                                     :+:    :+:            */
+/*   ft_long_len.c                                      :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: alkrusts <alkrusts@student.codam.nl>         +#+                     */
+/*   By: alkrusts <alkrust@student.codam.nl>          +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/05/23 15:58:11 by alkrusts      #+#    #+#                 */
-/*   Updated: 2020/07/11 17:36:42 by alkrusts      ########   odam.nl         */
+/*   Created: 2020/11/14 13:58:14 by alkrusts      #+#    #+#                 */
+/*   Updated: 2020/11/14 14:48:21 by alkrusts      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <limits.h>
 
-void	ft_putnbr_fd(int n, int fd)
+int	ft_longlen(long nr)
 {
-	unsigned int	nr;
+	int	ret;
 
-	if (n < 0)
+	ret = 0;
+	if (nr == 0)
+		return (1);
+	if (nr == LONG_MIN)
+		return (0);
+	if (nr < 0)
 	{
-		ft_putchar_fd('-', fd);
-		nr = -n;
+		nr = -nr;
+		ret++;
 	}
-	else
-		nr = (unsigned int)n;
-	if (nr >= 10)
-		ft_putnbr_fd(nr / 10, fd);
-	ft_putchar_fd((char)(nr % 10 + 48), fd);
+	while (nr >= 1)
+	{
+		ret++;
+		nr = nr / 10;
+	}
+	return (ret);
 }
